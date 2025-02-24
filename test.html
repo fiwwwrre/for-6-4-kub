@@ -5,12 +5,75 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ทดสอบ</title>
     <link rel="stylesheet" href="test.css">
+    <script src="test.js"></script>
+
+
+<style>
+        /* ตกแต่งช่องใส่ข้อความ */
+        input[type="text"] {
+            width: 85%; /* ขยายให้กว้างเต็มพื้นที่ */
+            padding: 10px; /* เพิ่มระยะห่างภายใน */
+            font-size: 16px; /* ขนาดตัวอักษร */
+            border-radius: 10px; /* มุมโค้ง */
+            border: 2px solid #3498db; /* กำหนดสีขอบ */
+            outline: none; /* ลบเส้นขอบเมื่อคลิก */
+            transition: border-color 0.3s; /* เพิ่มเอฟเฟกต์เมื่อโฟกัส */
+        }
+
+        /* เมื่อช่องใส่ข้อความได้รับการโฟกัส */
+        input[type="text"]:focus {
+            border-color: #2ecc71; /* เปลี่ยนสีขอบเมื่อโฟกัส */
+        }
+
+        /* ตกแต่ง placeholder */
+        input[type="text"]::placeholder {
+            color: #888; /* สีของข้อความ placeholder */
+            font-style: italic; /* ทำให้ข้อความ placeholder เอียง */
+        }
+    </style>
+
+<style>
+    .input-box {
+        margin-top: 10px;
+    }
+</style>
 
     <style>
         body { font-family: Arial, sans-serif; text-align: center; margin: 50px; }
-        .container { max-width: 600px; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 10px; box-shadow: 2px 2px 10px rgba(0,0,0,0.1); }
+        .container { max-width: 600px; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 10px; box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+        margin-bottom: 20px; }
         img { width: 100%; border-radius: 10px; }
         </style>
+
+<style>
+    body { font-family: Arial, sans-serif; text-align: center; margin: 50px; }
+    .container2 { max-width: 600px; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 10px; box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+    margin-bottom: 20px; }
+    img { width: 100%; border-radius: 10px; }
+    </style>
+
+<style>
+    body { font-family: Arial, sans-serif; text-align: center; margin: 50px; }
+    .container3 { max-width: 600px; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 10px; box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+    margin-bottom: 20px; }
+    img { width: 100%; border-radius: 10px; }
+    </style>
+
+<style>
+    body { font-family: Arial, sans-serif; text-align: center; margin: 50px; }
+    .container4 { max-width: 600px; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 10px; box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+    margin-bottom: 20px; }
+    img { width: 100%; border-radius: 10px; }
+    </style>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; margin: 50px; }
+        .container5 { max-width: 600px; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 10px; box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+        margin-bottom: 20px; }
+        img { width: 100%; border-radius: 10px; }
+        </style>
+        
+        
+        
   
 
 
@@ -20,8 +83,151 @@
 </head>
 <body>
     <div class="container">
-        <h1>แบบทดสอบสมองของห้องสี่</h1>
-    </div>   
+        <h1>แบบทดสอบ ฟิวคิดเองงง</h1>
+    </div>
     
+    <div class="container">
+        <h1>คำถามที่ 1</h1>
+
+        <h2>ห้องสี่ สีอะไร</h2>
+    <button id="answer" onclick="addInput()">คำตอบ</button>
+    
+    <div id="input-container"></div>
+
+
+<script>
+    function addInput() {
+        // สร้าง input element
+        var newInput = document.createElement("input");
+        newInput.type = "text";
+        newInput.placeholder = "ใส่คำตอบ";
+
+        // หาตำแหน่งของ div ที่จะใส่ input
+        var container = document.getElementById("input-container");
+
+        // เพิ่ม input เข้าไปใน div
+        container.appendChild(newInput);
+        document.getElementById("answer").style.display = "none";
+
+    }
+</script>
+</div>
+
+<div class="container2">
+    <h1>คำถามที่ 2</h1>
+
+    <h2>เอกลักษณ์ของห้องสี่คืออะไร</h2>
+<button id="answer2" onclick="addInput2()">คำตอบ</button>
+
+<div id="input-container2"></div>
+
+<script>
+    
+    function addInput2() {
+        // สร้าง input element
+        var newInput2 = document.createElement("input");
+        newInput2.type = "text";
+        newInput2.placeholder = "ใส่คำตอบ";
+
+        // หาตำแหน่งของ div ที่จะใส่ input
+        var container2 = document.getElementById("input-container2");
+
+        // เพิ่ม input เข้าไปใน div
+        container2.appendChild(newInput2);
+        document.getElementById("answer2").style.display = "none";
+
+    }
+</script>
+</div>
+
+<div class="container3">
+    <h1>คำถามที่ 3</h1>
+
+    <h2>ถ้าเอาจำนวนเพื่อนตั้งแต่ ป.4-ป.6 มารวมกันจะได้เท่าไหร่</h2>
+<button id="answer3" onclick="addInput3()">คำตอบ</button>
+
+<div id="input-container3"></div>
+
+<script>
+    
+    function addInput3() {
+        // สร้าง input element
+        var newInput3 = document.createElement("input");
+        newInput3.type = "text";
+        newInput3.placeholder = "ใส่คำตอบ";
+
+        // หาตำแหน่งของ div ที่จะใส่ input
+        var container3 = document.getElementById("input-container3");
+
+        // เพิ่ม input เข้าไปใน div
+        container3.appendChild(newInput3);
+        document.getElementById("answer3").style.display = "none";
+
+    }
+</script>
+</div>
+
+<div class="container4">
+    <h1>คำถามที่ 4</h1>
+
+    <h2>คิดยังไงกับห้องสี่ของตั้งแต่ ป.4-ป.6</h2>
+<button id="answer4" onclick="addInput4()">คำตอบ</button>
+
+<div id="input-container4"></div>
+
+<script>
+    
+    function addInput4() {
+        // สร้าง input element
+        var newInput4 = document.createElement("input");
+        newInput4.type = "text";
+        newInput4.placeholder = "ใส่คำตอบ";
+
+        // หาตำแหน่งของ div ที่จะใส่ input
+        var container4 = document.getElementById("input-container4");
+
+        // เพิ่ม input เข้าไปใน div
+        container4.appendChild(newInput4);
+        document.getElementById("answer4").style.display = "none";
+
+    }
+</script>
+</div>
+
+<div class="container5">
+    <h1>คำถามที่ 5</h1>
+
+    <h2>คิดยังไงกับโรงเรียนอนุบาลของเราตั้งแต่เริ่มเข้าโรงเรียนมา</h2>
+<button id="answer5" onclick="addInput5()">คำตอบ</button>
+
+<div id="input-container5"></div>
+
+<script>
+    
+    function addInput5() {
+        // สร้าง input element
+        var newInput5 = document.createElement("input");
+        newInput5.type = "text";
+        newInput5.placeholder = "ใส่คำตอบ";
+
+        // หาตำแหน่งของ div ที่จะใส่ input
+        var container5 = document.getElementById("input-container5");
+
+        // เพิ่ม input เข้าไปใน div
+        container5.appendChild(newInput5);
+        document.getElementById("answer5").style.display = "none";
+
+    }
+</script>
+</div>
+
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Sans+Thai:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<button id="send" onclick="window.location.href='end.html'">ไปหน้าถัดไป</button>
+
+
 </body>
 </html>

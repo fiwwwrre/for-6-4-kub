@@ -10,3 +10,173 @@ body {
     background: linear-gradient(135deg, #ffffff 25%, #ff9900 25%, #ff9900 50%, #ffffff 50%, #ffffff 75%, #ff9900 75%);
     background-size: 100px 100px; /* ปรับขนาดลาย */
 }
+#start {
+    background-color: #03bd03;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+#start:hover {
+    background-color: #028e02;
+}
+#start:active {
+    background-color: #027702;
+}
+
+#answer {
+    background-color: #03bd03;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#answer:hover {
+    background-color: #028e02;
+}
+
+#answer:active {
+    background-color: #027702;
+}
+
+.container2 {
+    color: #ff8c00;
+    font-family: 'Kanit', sans-serif;
+}
+
+body {
+    .container2 {
+        background-color: #ffffff;
+    }
+    background: linear-gradient(135deg, #ffffff 25%, #ff9900 25%, #ff9900 50%, #ffffff 50%, #ffffff 75%, #ff9900 75%);
+    background-size: 100px 100px; /* ปรับขนาดลาย */
+}
+
+.container3 {
+    color: #ff8c00;
+    font-family: 'Kanit', sans-serif;
+}
+
+body {
+    .container3 {
+        background-color: #ffffff;
+    }
+    background: linear-gradient(135deg, #ffffff 25%, #ff9900 25%, #ff9900 50%, #ffffff 50%, #ffffff 75%, #ff9900 75%);
+    background-size: 100px 100px; /* ปรับขนาดลาย */
+}
+
+
+body {
+    .container4 {
+        background-color: #ffffff;
+    }
+    background: linear-gradient(135deg, #ffffff 25%, #ff9900 25%, #ff9900 50%, #ffffff 50%, #ffffff 75%, #ff9900 75%);
+    background-size: 100px 100px; /* ปรับขนาดลาย */
+}
+
+.container4 {
+    color: #ff8c00;
+    font-family: 'Kanit', sans-serif;
+}
+
+body {
+    .container5 {
+        background-color: #ffffff;
+    }
+    background: linear-gradient(135deg, #ffffff 25%, #ff9900 25%, #ff9900 50%, #ffffff 50%, #ffffff 75%, #ff9900 75%);
+    background-size: 100px 100px; /* ปรับขนาดลาย */
+}
+
+.container5 {
+    color: #ff8c00;
+    font-family: 'Kanit', sans-serif;
+}
+
+#answer2 {
+    background-color: #03bd03;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#answer2:hover {
+    background-color: #028e02;
+}
+
+#answer2:active {
+    background-color: #027702;
+}
+
+#answer3 {
+    background-color: #03bd03;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#answer3:hover {
+    background-color: #028e02;
+}
+
+#answer3:active {
+    background-color: #027702;
+}
+
+#answer4 {
+    background-color: #03bd03;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#answer4:hover {
+    background-color: #028e02;
+}
+
+#answer4:active {
+    background-color: #027702;
+}
+
+#answer5 {
+    background-color: #03bd03;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#answer5:hover {
+    background-color: #028e02;
+}
+
+#answer5:active {
+    background-color: #027702;
+}
+
+#send {
+    color: #ff8c00;
+    font-family: 'Kanit', sans-serif;
+    background-color: #02dbf7;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}

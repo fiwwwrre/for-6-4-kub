@@ -12,21 +12,3 @@ body {
     background: linear-gradient(135deg, #ffffff 25%, #ff9900 25%, #ff9900 50%, #ffffff 50%, #ffffff 75%, #ff9900 75%);
     background-size: 100px 100px;
 }
-
-#เริ่ม {
-    background-color: orange;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
-}
-#เริ่ม:hover {
-    background-color: #ff8c00;
-}
-
-#เริ่ม:active {
-    background-color: #bd6904;
-}
-
