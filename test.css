@@ -1,0 +1,12 @@
+.container {
+    color: #ff8c00;
+    font-family: 'Kanit', sans-serif;
+}
+
+body {
+    .container {
+        background-color: #ffffff;
+    }
+    background: linear-gradient(135deg, #ffffff 25%, #ff9900 25%, #ff9900 50%, #ffffff 50%, #ffffff 75%, #ff9900 75%);
+    background-size: 100px 100px; /* ปรับขนาดลาย */
+}
