@@ -13,7 +13,7 @@ body {
     background-size: 100px 100px;
 }
 
-#เริ่ม {
+#go {
     background-color: orange;
     color: white;
     padding: 10px 20px;
@@ -22,11 +22,11 @@ body {
     cursor: pointer;
     font-size: 16px;
 }
-#เริ่ม:hover {
+#go:hover {
     background-color: #ff8c00;
 }
 
-#เริ่ม:active {
+#go:active {
     background-color: #bd6904;
 }
 

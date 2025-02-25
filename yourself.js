@@ -1,5 +1,5 @@
-let เริ่ม = document.getElementById("เริ่ม");
+let go = document.getElementById("go");
 
-document.getElementById("เริ่ม").addEventListener("click", function() {
-    window.location.href = "yourself.html";
+document.getElementById("go").addEventListener("click", function() {
+    window.location.href = "test.html";
 });
